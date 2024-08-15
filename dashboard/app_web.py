@@ -3,7 +3,7 @@ import pandas as pd
 from PIL import Image
 
 # Carregar arquivo xlsx
-df = pd.read_excel("results.xlsx")
+df = pd.read_csv("results.csv")
 
 # Personalização de alguns traços da dash
 st.set_page_config(page_title='FIAP', page_icon='🎒')
