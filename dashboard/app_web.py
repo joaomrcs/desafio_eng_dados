@@ -3,11 +3,11 @@ import pandas as pd
 from PIL import Image
 
 # Carregar arquivo xlsx
-df = pd.read_csv("results.csv")
+df = pd.read_csv("/desafio_eng_dados/dashboard/results.csv")
 
 # Personalização de alguns traços da dash
 st.set_page_config(page_title='FIAP', page_icon='🎒')
-image = Image.open('fiap_icon.jpg')
+image = Image.open("/desafio_eng_dados/dashboard/fiap_icon.jpg")
 st.sidebar.image(image, width=120)
 
 # Alterar os tipos das colunas
