@@ -40,7 +40,7 @@ Complementando a procedure, foi desenvolvido um dashboard utilizando a bibliotec
 
 O dashboard também está disponível online. Você pode acessá-lo através do link abaixo:
 
-[**Acessar o Dashboard**](#) # Colocar link na hashtag
+[**Acessar o Dashboard**](https://dashboard-desafio.streamlit.app/)
 
 ### 🚀 Como Rodar o Dashboard Localmente
 
